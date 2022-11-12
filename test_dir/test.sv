@@ -11,4 +11,8 @@ function build_phase(uvm_phase, phase);
 	super.build_phase(phase);
 endfunction
 
+function connect_phase(uvm_phase, phase);
+	 super.connect_phase(phase);
+endfunction
+
 
